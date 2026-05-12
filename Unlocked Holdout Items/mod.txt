@@ -1,0 +1,14 @@
+{
+    "name": "Unlocked Holdout",
+    "description": "Unlocks Holdout locked items. Because Holdout sucks.",
+    "author": "citrusyummer",
+    "contact": "",
+    "version": "v1.0.0",
+    
+    "hooks": [
+    {
+        "hook_id": "lib/managers/dlcmanager",
+        "script_path": "unlocker.lua"
+    }
+    ]
+}
